@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment Starter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My JavaScript Assignment</h1>
+    <p id="intro">This page demonstrates variables & conditionals, functions, loops, and DOM interactions.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Greet User</h2>
+      <label for="nameInput">Your name:</label>
+      <input id="nameInput" type="text" placeholder="Enter your name" />
+      <label for="ageInput">Your age:</label>
+      <input id="ageInput" type="number" min="0" placeholder="Enter your age" />
+      <button id="greetBtn">Greet</button>
+      <p id="message"></p>
+    </section>
+
+    <section class="card">
+      <h2>Create a Number List</h2>
+      <label for="countInput">How many items?</label>
+      <input id="countInput" type="number" min="1" max="20" value="5" />
+      <button id="makeListBtn">Make List</button>
+      <ul id="list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Theme</h2>
+      <button id="themeBtn">Toggle Theme</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Nsovo (you can change this!)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
